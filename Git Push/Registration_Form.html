@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration_Form</title>
+</head>
+<body bgcolor="Lavender">
+    
+<h2>Registration Form</h2>
+
+    
+            <form>
+                  <label>First Name:</label><br>
+                  <input type="text" name="First Name" pattern="[a-zA-Z]{4,25}" placeholder="Enter First Name" >
+                  <br>
+                  <br>
+                
+                  <label>Last Name: </label><br>
+                  <input type="text" name="Last Name" pattern="[a-zA-Z]{4,25}" placeholder="Enter Last Name" >
+                  <br>
+                  <br>
+                  <label>Address:</label><br>
+                  <textarea rows="3" cols="28" maxlength="50">
+                        </textarea>
+                        <br>
+                        <br>
+                  <label>Email Id:  </label><br>
+                  <input type="email" name="Email">
+                  <br>
+                  <br>
+                  <label>City:</label><br>
+                  <select>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Vijaywada">Vijaywada</option>
+                        <option value="Guntur">Guntur</option>
+                      </select>
+                  <br>
+                  <br>
+                  <lable>State:</lable>
+                  <br>
+                  <select>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="AndhraPradesh">AndhraPradesh</option>
+                       
+                      </select>
+                      <br><br>
+                      <label>University Branch Name:</label><br>
+                      <input type="text" name="Branch Name">
+                      <br>
+                      <br>
+                      <label>Phone number:</label><br>
+                      <input type="number" maxlength="10"  name="Phone number">
+                      <br>
+                      <br>
+                      <label>Enrolled Course:</label><br>
+                      <input type="text"  name="Enrolled Course">
+                      <br>
+                      <br>
+                      <label>Date of Test:</label><br>
+                      <input type="date" name="Date of Test">
+                      <br>
+                      <br>
+                      <label>Written Test Marks:</label><br>
+                      <input type="number" name="Written Test Marks" min="50" max="100">
+                      <br>
+                      <br>
+                      <button type="submit" value="Submit">Submit</button>
+
+                  </form>
+
+    
+</body>
+</html>
